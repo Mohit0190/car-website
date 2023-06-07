@@ -18,7 +18,7 @@ function App() {
    {/* <Home/> */}
    {
     data.map((element)=>{
-     return( <Section title={element.title} desc={element.description}  key={element.id}/>);
+     return( <Section title={element.title} desc={element.description}  key={element.id} range={element.range} time={element.time} speed={element.topSpeed}/>);
     })
    }
    
